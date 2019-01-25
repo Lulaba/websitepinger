@@ -58,13 +58,13 @@ async def main(client):
                     name=message.author.name,
                     icon_url=message.author.avatar_url)
                 embed.set_footer(
-                    text='Website Pinger | Powered by Sh00t ❤', 
-                    icon_url='https://cdn.discordapp.com/attachments/472577829125488650/475392067388964875/face-with-cowboy-hat_1f920_1.png')
+                    text='Website Pinger Bot | Powered by: @AnotherCop', 
+                    icon_url='https://pbs.twimg.com/profile_images/1068858813263024128/X1vXvUbT_400x400.jpg')
                 embed.timestamp = datetime.datetime.utcnow()
                 
                 await client.send_message(message.channel, embed=embed)
                 
-    await client.start('NTE4MTM3MjkzMTE5MTYwMzM0.DwkfhQ.xF-Z9VdxKpS5blHaXA7I6f6b6Ng')
+    await client.start('NTM4NDM0MjI5ODc3MzQyMjYx.DyzvpQ.TTOy5jIdYpXIBdKNTTEdF0GQG2s')
 
 def init():
     client = discord.Client()
